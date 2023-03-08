@@ -4,12 +4,14 @@ const btn = document.getElementById('btn');
 const color = document.querySelector(".color")
 btn.addEventListener('click', function(){
 
+  
     const corAleatoria = gerarCor();
 
     document.body.style.backgroundColor = corAleatoria;
     
     color.textContent = corAleatoria;
 
+    
 });
 
 
